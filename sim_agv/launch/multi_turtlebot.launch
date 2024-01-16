@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<launch>  
+  <!-- rosstage 加载world文件 -->  
+  <node name="agv1_dispath" pkg="stage_ros" type="stageros" args="$(find sim_agv)/stage/test.world"/> 
+  <!-- 启动位置转发节点 -->  
+  <node name="turtlebot_agv" pkg="sim_agv" type="turtlebot_agv.py" output="screen"/>
+</launch>

@@ -1,0 +1,474 @@
+include "turtlebot.inc"
+# include "myBlock.inc"
+
+
+define floorplan model
+(
+  # sombre, sensible, artistic
+  color "gray30"
+
+  # most maps will need a bounding box
+  boundary 0
+
+  gui_nose 0
+  gui_grid 0
+  gui_outline 0
+  gripper_return 0
+  fiducial_return 0
+  laser_return 1
+)
+
+resolution 0.02
+interval_sim 100  # simulation timestep in milliseconds
+
+window
+(
+#  size [ 600.0 700.0 ]
+  size [ 761 430 ]
+  center [ 14.464 32.714 ]
+  rotate [ 14.000 0.000 ]
+  scale 7.513
+)
+
+#floorplan
+#(
+#  name "test"
+#  bitmap "../maps/empty1.png"
+#  size [ 15.0 15.0 2.0 ]
+#  pose [  7.5  7.5 0.0 0.0 ]
+#)
+
+
+# throw in a robot
+turtlebot 
+( 
+  pose [ 1.8 30.6 0.0 180.0 ]
+  name " turtlebot71"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 1.8 28.8 0.0 180.0 ]
+  name " turtlebot70"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 1.8 27.0 0.0 180.0 ]
+  name " turtlebot69"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 1.8 25.2 0.0 180.0 ]
+  name " turtlebot68"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 1.8 23.4 0.0 180.0 ]
+  name " turtlebot67"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 1.8 21.6 0.0 180.0 ]
+  name " turtlebot66"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 3.6 30.6 0.0 180.0 ]
+  name " turtlebot65"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 3.6 28.8 0.0 180.0 ]
+  name " turtlebot64"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 3.6 27.0 0.0 180.0 ]
+  name " turtlebot63"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 3.6 25.2 0.0 180.0 ]
+  name " turtlebot62"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 3.6 23.4 0.0 180.0 ]
+  name " turtlebot61"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 3.6 21.6 0.0 180.0 ]
+  name " turtlebot60"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 5.4 30.6 0.0 180.0 ]
+  name " turtlebot59"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 5.4 28.8 0.0 180.0 ]
+  name " turtlebot58"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 5.4 27.0 0.0 180.0 ]
+  name " turtlebot57"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 5.4 25.2 0.0 180.0 ]
+  name " turtlebot56"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 5.4 23.4 0.0 180.0 ]
+  name " turtlebot55"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 5.4 21.6 0.0 180.0 ]
+  name " turtlebot54"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 7.2 30.6 0.0 180.0 ]
+  name " turtlebot53"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 7.2 28.8 0.0 180.0 ]
+  name " turtlebot52"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 7.2 27.0 0.0 180.0 ]
+  name " turtlebot51"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 7.2 25.2 0.0 180.0 ]
+  name " turtlebot50"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 7.2 23.4 0.0 180.0 ]
+  name " turtlebot49"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 7.2 21.6 0.0 180.0 ]
+  name " turtlebot48"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 9.0 30.6 0.0 180.0 ]
+  name " turtlebot47"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 9.0 28.8 0.0 180.0 ]
+  name " turtlebot46"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 9.0 27.0 0.0 180.0 ]
+  name " turtlebot45"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 9.0 25.2 0.0 180.0 ]
+  name " turtlebot44"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 9.0 23.4 0.0 180.0 ]
+  name " turtlebot43"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 9.0 21.6 0.0 180.0 ]
+  name " turtlebot42"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 10.8 30.6 0.0 180.0 ]
+  name " turtlebot41"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 10.8 28.8 0.0 180.0 ]
+  name " turtlebot40"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 10.8 27.0 0.0 180.0 ]
+  name " turtlebot39"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 10.8 25.2 0.0 180.0 ]
+  name " turtlebot38"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 10.8 23.4 0.0 180.0 ]
+  name " turtlebot37"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 10.8 21.6 0.0 180.0 ]
+  name " turtlebot36"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 12.6 30.6 0.0 180.0 ]
+  name " turtlebot35"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 12.6 28.8 0.0 180.0 ]
+  name " turtlebot34"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 12.6 27.0 0.0 180.0 ]
+  name " turtlebot33"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 12.6 25.2 0.0 180.0 ]
+  name " turtlebot32"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 12.6 23.4 0.0 180.0 ]
+  name " turtlebot31"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 12.6 21.6 0.0 180.0 ]
+  name " turtlebot30"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 14.4 30.6 0.0 180.0 ]
+  name " turtlebot29"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 14.4 28.8 0.0 180.0 ]
+  name " turtlebot28"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 14.4 27.0 0.0 180.0 ]
+  name " turtlebot27"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 14.4 25.2 0.0 180.0 ]
+  name " turtlebot26"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 14.4 23.4 0.0 180.0 ]
+  name " turtlebot25"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 14.4 21.6 0.0 180.0 ]
+  name " turtlebot24"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 16.2 30.6 0.0 180.0 ]
+  name " turtlebot23"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 16.2 28.8 0.0 180.0 ]
+  name " turtlebot22"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 16.2 27.0 0.0 180.0 ]
+  name " turtlebot21"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 16.2 25.2 0.0 180.0 ]
+  name " turtlebot20"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 16.2 23.4 0.0 180.0 ]
+  name " turtlebot19"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 16.2 21.6 0.0 180.0 ]
+  name " turtlebot18"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 18.0 30.6 0.0 180.0 ]
+  name " turtlebot17"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 18.0 28.8 0.0 180.0 ]
+  name " turtlebot16"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 18.0 27.0 0.0 180.0 ]
+  name " turtlebot15"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 18.0 25.2 0.0 180.0 ]
+  name " turtlebot14"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 18.0 23.4 0.0 180.0 ]
+  name " turtlebot13"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 18.0 21.6 0.0 180.0 ]
+  name " turtlebot12"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 19.8 30.6 0.0 180.0 ]
+  name " turtlebot11"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 19.8 28.8 0.0 180.0 ]
+  name " turtlebot10"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 19.8 27.0 0.0 180.0 ]
+  name " turtlebot9"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 19.8 25.2 0.0 180.0 ]
+  name " turtlebot8"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 19.8 23.4 0.0 180.0 ]
+  name " turtlebot7"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 19.8 21.6 0.0 180.0 ]
+  name " turtlebot6"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 21.6 30.6 0.0 180.0 ]
+  name " turtlebot5"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 21.6 28.8 0.0 180.0 ]
+  name " turtlebot4"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 21.6 27.0 0.0 180.0 ]
+  name " turtlebot3"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 21.6 25.2 0.0 180.0 ]
+  name " turtlebot2"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 21.6 23.4 0.0 180.0 ]
+  name " turtlebot1"
+  color "green"
+)
+turtlebot 
+( 
+  pose [ 21.6 21.6 0.0 180.0 ]
+  name " turtlebot0"
+  color "green"
+)

@@ -1,0 +1,22 @@
+<launch>
+  <!-- 运行planner list.py   -->
+  <node name="agv0_dispath" pkg="sim_agv" type="planner0.py" output="screen"/>
+  <node name="agv1_dispath" pkg="sim_agv" type="planner1.py" output="screen"/>
+  <node name="agv2_dispath" pkg="sim_agv" type="planner2.py" output="screen"/>
+  <node name="agv3_dispath" pkg="sim_agv" type="planner3.py" output="screen"/>
+  <node name="agv4_dispath" pkg="sim_agv" type="planner4.py" output="screen"/>
+  <node name="agv5_dispath" pkg="sim_agv" type="planner5.py" output="screen"/>
+  <node name="agv6_dispath" pkg="sim_agv" type="planner6.py" output="screen"/>
+  <node name="agv7_dispath" pkg="sim_agv" type="planner7.py" output="screen"/>
+  <node name="agv8_dispath" pkg="sim_agv" type="planner8.py" output="screen"/>
+  <node name="agv9_dispath" pkg="sim_agv" type="planner9.py" output="screen"/>
+  <node name="agv10_dispath" pkg="sim_agv" type="planner10.py" output="screen"/>
+  <node name="agv11_dispath" pkg="sim_agv" type="planner11.py" output="screen"/>
+  <node name="agv12_dispath" pkg="sim_agv" type="planner12.py" output="screen"/>
+  <node name="agv13_dispath" pkg="sim_agv" type="planner13.py" output="screen"/>
+  <node name="agv14_dispath" pkg="sim_agv" type="planner14.py" output="screen"/>
+  <node name="agv15_dispath" pkg="sim_agv" type="planner15.py" output="screen"/>
+  <node name="agv16_dispath" pkg="sim_agv" type="planner16.py" output="screen"/>
+  <node name="agv17_dispath" pkg="sim_agv" type="planner17.py" output="screen"/>
+
+</launch>
